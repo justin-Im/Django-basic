@@ -11,9 +11,9 @@ class Fcuser(models.Model):
     class Meta:
         db_table = 'fastcampus_fcuser'
 
-#model 생성 후 아래 명령어 수행
-#1. model init
-#python manage.py makemigrations
+# model 생성 후 아래 명령어 수행
+# 1. model init
+# python manage.py makemigrations
 
-#2. model db생성
-#python manage.py migrate
+# 2. model db생성
+# python manage.py migrate
